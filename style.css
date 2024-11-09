@@ -84,3 +84,9 @@ p {
     height: 310px;
     background-color: #32373A;
     display: inline-block;
+}
+
+footer {
+   position: relative;
+   bottom: 100px;
+}
