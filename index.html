@@ -23,7 +23,7 @@
     <![endif]-->
     <style>
       body {
-        background: #59CCF2 !important;
+        background: #2e3440 !important;
       }
       /* Sticky footer styles
 	-------------------------------------------------- */
@@ -34,16 +34,42 @@
       body {
 	/* Margin bottom by footer height */
 	margin-bottom: 80px;
-      }
-      .footer {
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	margin-top: 20px;
-	/* Set the fixed height of the footer here */
-	height: 40px;
-	background-color: #11a4d4;
-      }
+      button {
+        background-color: #5e81ac;
+        border: 2px solid;
+        border-color: #5e81ac;
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        z-index: 999;
+       -webkit-user-select: none;
+       -webkit-transition-property: all; 
+       -webkit-transition-duration: 0.4s; 
+       -webkit-transition-timing-function: ease;
+       touch-action: manipulation;
+}
+button:hover {
+    transform: scale(1.15);
+    border: 2px solid;
+    border-color: #aec6cf; 
+}
     </style>
   </head>
   <body>
@@ -81,8 +107,8 @@
     <input id="key1" maxlength="1"/><br />
     Key 2<br />
     <input id="key2" maxlength="1"/><br /><br />
-    <button id="submit" onclick = "beginTest()" type="button">Begin Test</button><br />
-    <button id="stopbtn" onClick="endTest()" type="button" style="display:none">Stop Test</button><br />
+    <button class="button" id="submit" onclick = "beginTest()" type="button">Begin Test</button><br />
+    <button class="button" id="stopbtn" onClick="endTest()" type="button" style="display:none">Stop Test</button><br />
     
     <div id="status">Time starts when you make your first click.</div>
     <h3>Your Results:</h3>
