@@ -284,6 +284,7 @@ $(document).ready(function() {
     $("#chartContainer").CanvasJSChart({
 		    zoomEnabled: true,
 		    exportEnabled: true,
+	            theme: "dark2",
 		    title: {
 			    text: "BPM Chart"
 		    },
