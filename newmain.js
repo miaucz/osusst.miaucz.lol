@@ -285,7 +285,6 @@ $(document).ready(function() {
 		    zoomEnabled: true,
 		    exportEnabled: true,
 	            theme: "dark2",
-	            border-radius: 12px,
 		    title: {
 			    text: "BPM Chart"
 		    },
