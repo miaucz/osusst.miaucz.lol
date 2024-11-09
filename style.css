@@ -86,7 +86,7 @@ p {
     display: inline-block;
 }
 
-footer {
+.footer {
    position: relative;
    bottom: 100px;
 }
