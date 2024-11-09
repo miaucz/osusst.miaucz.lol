@@ -1,62 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-.body
-{
-    background-color: #2e3440;
-    font-family: 'Poppins', sans-serif;
-
+      body {
+        background-color: #2e3440 !important;
+        font-family: 'Poppins', sans-serif;
+      }
+      /* Sticky footer styles
+	-------------------------------------------------- */
+      html {
+	position: relative;
+	min-height: 100%;
+      }
+      .button {
+        background-color: #5e81ac;
+        border: 2px solid;
+        border-color: #5e81ac;
+        border-radius: 8px;
+        border-style: none;
+        box-sizing: border-box;
+        color: white;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-weight: 500;
+        height: 40px;
+        line-height: 20px;
+        list-style: none;
+        outline: none;
+        padding: 10px 16px;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        transition: color 100ms;
+        vertical-align: baseline;
+        user-select: none;
+        z-index: 999;
+       -webkit-user-select: none;
+       -webkit-transition-property: all; 
+       -webkit-transition-duration: 0.4s; 
+       -webkit-transition-timing-function: ease;
+       touch-action: manipulation;
 }
-#ui
-{
-    text-align: center;
-}
-
-.button {
-  background-color: #5e81ac;
-  border: 2px solid;
-  border-color: #5e81ac;
-  border-radius: 8px;
-  border-style: none;
-  box-sizing: border-box;
-  color: white;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'Poppins', sans-serif;
-  font-size: 14px;
-  font-weight: 500;
-  height: 40px;
-  line-height: 20px;
-  list-style: none;
-  outline: none;
-  padding: 10px 16px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: color 100ms;
-  vertical-align: baseline;
-  user-select: none;
-  z-index: 999;
-  -webkit-user-select: none;
-  -webkit-transition-property: all; 
-  -webkit-transition-duration: 0.4s; 
-  -webkit-transition-timing-function: ease;
-  touch-action: manipulation;
-}
-
 .button:hover {
     transform: scale(1.15);
     border: 2px solid;
     border-color: #aec6cf; 
 }
-#streamSettings
-{
-    font-size: 20px;
+.header {
+    height: 100px;
+    background: #5e81ac;
 }
-input
-{
-    text-align: center;
+.header p {
+    font-size: 35px;
+    margin-bottom: 50px;
 }
-footer
-{
-    text-align: right;
+
+.header img,
+p {
+    vertical-align: middle;
+    display: inline;
+    padding: 15px;
+    border-radius: 25%;
+    -webkit-transition-property: all; 
+    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-timing-function: ease;
+}
+.header img:hover {
+    transform: scale(1.10);
 }
