@@ -78,8 +78,7 @@ p {
 }
 
 .bpmchartcontainer {
-    border-radius: 15px;
-    margin-left: 10px;
+    border-radius: 10px;
     text-align: center;
     width: 610px;
     height: 310px;
