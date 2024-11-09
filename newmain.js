@@ -60,8 +60,8 @@ function beginTest() {
     $("div#status").html("Test ready, press key 1 or key 2 to begin.");
     $("div#Result").html("\
         Tap Speed: 0 taps / 0 seconds<br>\
-        Stream Speed: 0 bpm<br>\
-        Unstable Rate: 0.\
+        Stream Speed: 0 BPM<br>\
+        Unstable Rate: 0\
     ");
     localStorage.setItem('clickLimit', clickLimit);
     localStorage.setItem('timeLimit', timeLimit);
@@ -142,7 +142,7 @@ function update(click) {
 		$("div#Result").html("\
 		Tap Speed: " + (clickTimes.length.toString() + " taps / " + streamtime.toFixed(3)) + " seconds.<br>\
 		Stream Speed: " + (Math.round((((clickTimes.length) / (Date.now() - beginTime) * 60000)/4) * 100) / 100).toFixed(2) + " bpm.<br>\
-		Unstable Rate: n/a.\
+		Unstable Rate: n/a\
 	");
 	} else {
 	    $("div#Result").html("\
