@@ -79,15 +79,13 @@ p {
 
 .bpmchartcontainer {
     border-radius: 15px;
+    border: 3px solid;
+    border-color: #aec6cf;
     text-align: center;
     width: 615px;
     height: 315px;
     background-color: #32373A;
     display: inline-block;
-}
-.bpmchartcontainer:hover {
-    border: 3px solid;
-    border-color: #aec6cf;
 }
 .footer {
    position: relative;
