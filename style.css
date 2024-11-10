@@ -80,6 +80,8 @@ p {
 .bpmchartcontainer {
     border-radius: 10px;
     text-align: center;
+    border: 3px solid;
+    border-color: #aec6cf;
     width: 610px;
     height: 310px;
     background-color: #32373A;
