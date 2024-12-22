@@ -23,16 +23,16 @@
                 style="color: #5e81ac">
                 <img src="pfp.jpg" width="100" height="100" alt="">
             </a>
-            <p style="color: white; margin-top: 10px; margin-right: 1px; font-family: 'Poppins', sans serif">miaucz.lol</p>
+            <p style="color: white; margin-top: 10px; margin-right: 1px; font-family: 'Poppins', sans-serif">miaucz.lol</p>
         </span>
     </div>
  <div class="container text-center" style="color:white; font-size:20px">
       
-    <div style="color: white;" class="text-center">
+    <div style="font-family: 'Poppins', sans-serif; color: white;" class="text-center">
       <h1>osu! Stream Speed Test</h1>
     </div>
     
-    <div style="color: white;" id="radiobtns" class="text-center">
+    <div style="font-family: 'Poppins', sans-serif; color: white;" id="radiobtns" class="text-center">
       <label class="radio-inline">
 	<input type="radio" name="roption" onClick="radiof(1)" value="clicks" checked /> Clicks
       </label>
@@ -40,32 +40,32 @@
 	<input type="radio" name="roption" onClick="radiof(2)" value="time" /> Time
       </label>
     </div>
-    <div>
+    <div style="font-family: 'Poppins', sans-serif">
     <input type="checkbox" name="cmouse" /> Enable mouse buttons
     </div>
     <br />
     
-    <div style="color: white;" id="numClicks">
-      Number of clicks<br />
-      <input id = "clickNum" type="number" style="background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;" min="3"/>
+    <div style="font-family: 'Poppins', sans-serif; color: white;" id="numClicks">
+      Number of clicks:<br />
+      <input size="11" id = "clickNum" type="number" style="background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;" min="3"/>
       <br /><br />
     </div>
-    <div id="timeClicks" style="display: none; color: white;">
+    <div id="timeClicks" style="font-family: 'Poppins', sans-serif; display: none; color: white;">
       Time:<br />
-      <input id="clickTime" type="number" style="background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;" min="2"/>
+      <input size="11" id="clickTime" type="number" style="background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;" min="2"/>
       <br /><br />
     </div>
     
-    Key 1<br />
-    <input id="key1" maxlength="1" style="background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;"/><br />
-    Key 2<br />
-    <input id="key2" maxlength="1" style="background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;"/><br /><br />
+    <span style="font-family: 'Poppins', sans-serif">Key 1<br /></span>
+    <input size="12" id="key1" maxlength="1" style="font-family: 'Poppins', sans serif; background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;"/><br />
+    <span style="font-family: 'Poppins', sans-serif">Key 2<br /></span>
+    <input size="12" id="key2" maxlength="1" style="font-family: 'Poppins', sans-serif; background-color: #58637a; border: 3px solid; border-color: #475063; border-radius: 8px;"/><br /><br />
     <button class="button" id="submit" onclick = "beginTest()" type="button">Begin Test</button><br />
     <button class="button" id="stopbtn" onclick = "endTest()" type="button" style="display: none">Stop Test</button><br />
     
-    <div style="color: white;" id="status">Time starts when you make your first click.</div>
-    <h3>Your Results:</h3>
-    <div id="Result">
+    <div style="font-family: 'Poppins', sans-serif; color: white;" id="status">Time starts when you make your first click.</div>
+    <h3 style="font-family: 'Poppins', sans-serif">Your Results:</h3>
+    <div style="font-family: 'Poppins', sans-serif" id="Result">
       Tap Speed: 0 taps / 0 seconds<br />
       Stream Speed: 0 BPM<br />
       Unstable Rate: 0
@@ -75,7 +75,7 @@
     <div id="chartContainer" class="container" style="color: black; width:600px;height:300px; position: relative; bottom: 315px; right: 15px;"> 
     </div>
     <div class="footer">
-	<div class="text-center" style="color: #58637a">Designed by miaucz, created by arctic, rewritten by Ckris</div>
+	<div class="text-center" style="font-family: 'Poppins', sans-serif; color: #58637a">Designed by miaucz, created by arctic, rewritten by Ckris</div>
     </div>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
